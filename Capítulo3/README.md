@@ -1,41 +1,133 @@
-# Nombre del laboratorio 
+# Reporte de Ventas por Sucursal
 
 ## Objetivo de la práctica:
-Al finalizar la práctica, serás capaz de:
-- Objetivo1
-- Objetivo2
-- Objetivo3
 
-## Objetivo Visual 
-Crear un diagrama o imagen que resuma las actividades a realizar, un ejemplo es la siguiente imagen. 
+Al finalizar esta práctica, el participante será capaz de manejar filas, columnas, celdas y rangos; aplicar referencias relativas, absolutas y mixtas en fórmulas; usar funciones básicas como `SUMA`, `PROMEDIO`, `MIN` y `MAX`, aplicar funciones de fecha y hora, concatenar, y utilizar funciones para extraer información útil desde una celda.
 
-![diagrama1](../images/img1.png)
+## Objetivo Visual
+
+![imagen resultado](..\images\cap3_obj.png)
 
 ## Duración aproximada:
-- xx minutos.
 
-## Tabla de ayuda:
-Agregar una tabla con la información que pueda requerir el participante durante el laboratorio, como versión de software, IPs de servers, usuarios y credenciales de acceso.
-| Contraseña | Correo | Código |
-| --- | --- | ---|
-| Netec2024 | edgardo@netec.com | 123abc |
+- 35 minutos.
 
 ## Instrucciones 
-<!-- Proporciona pasos detallados sobre cómo configurar y administrar sistemas, implementar soluciones de software, realizar pruebas de seguridad, o cualquier otro escenario práctico relevante para el campo de la tecnología de la información -->
-### Tarea 1. Descripción de la tarea a realizar.
-Paso 1. Debe de relatar el instructor en verbo infinito, claro y conciso cada actividad para ir construyendo paso a paso en el objetivo de la tarea.
 
-Paso 2. <!-- Añadir instrucción -->
+### Tarea 1. **Crear la tabla base**
 
-Paso 3. <!-- Añadir instrucción -->
+Paso 1. Abre un nuevo archivo de Excel.
 
-### Tarea 2. Descripción de la tarea a realizar.
-Paso 1. Debe de relatar el instructor en verbo infinito, claro y conciso cada actividad para ir construyendo paso a paso en el objetivo de la tarea.
+Paso 2. Escribe los siguientes encabezados en la fila 1:
 
-Paso 2. <!-- Añadir instrucción -->
+- `Código Producto`
+- `Nombre Producto`
+- `Sucursal`
+- `Fecha de Venta`
+- `Unidades Vendidas`
+- `Precio Unitario`
+- `Total Venta`
+- `Responsable`
 
-Paso 3. <!-- Añadir instrucción -->
+Paso 3. Ingresa al menos 5 registros de ventas:
 
-### Resultado esperado
-En esta sección se debe mostrar el resultado esperado de nuestro laboratorio
-![imagen resultado](../images/img3.png)
+| Código Producto | Nombre Producto | Sucursal | Fecha de Venta | Unidades Vendidas | Precio Unitario | Total Venta | Responsable |
+|-----------------|------------------|----------|----------------|-------------------|------------------|--------------|-------------|
+| PRD001          | Cuaderno         | Norte    | 01/04/2025     | 45                | 2.50             |              | Ana López   |
+| PRD002          | Bolígrafo        | Sur      | 03/04/2025     | 60                | 1.75             |              | Carlos Ruiz |
+| PRD003          | Agenda           | Norte    | 05/04/2025     | 30                | 5.20             |              | Ana López   |
+| PRD004          | Lápiz            | Este     | 06/04/2025     | 100               | 0.80             |              | María Soto  |
+| PRD005          | Calculadora      | Oeste    | 08/04/2025     | 10                | 15.00            |              | Laura Díaz  |
+
+![imagen resultado](..\images\cap3_1.png)
+
+### Tarea 2. **Insertar y ocultar columnas**
+
+Paso 4. Da clic derecho en la columna `Total Venta` y selcciona la opcion de `Insertar` para insertar una nueva columna entre `Precio Unitario` y `Total Venta`, a esta nómbrala `Descuento %`.
+
+![imagen resultado](..\images\cap3_2.png)
+![imagen resultado](..\images\cap3_3.png)
+
+Paso 5. Llena esa columna con el valor `10%` (usa formato porcentaje).
+
+![imagen resultado](..\images\cap3_4.png)
+
+Paso 6. Calcula el total de la venta aplicando el descuento, en la columna `Total Venta`:
+
+```excel
+=Unidades Vendidas * Precio Unitario * (1 - Descuento %)
+```
+
+![imagen resultado](..\images\cap3_5.png)
+
+Paso 7. Usa **referencias mixtas** para que el descuento se aplique correctamente en todas las filas.
+
+![imagen resultado](..\images\cap3_6.png)
+
+Paso 8. Oculta la columna `Descuento %` para simular datos internos no visibles al público.
+
+![imagen resultado](..\images\cap3_7.png)
+![imagen resultado](..\images\cap3_8.png)
+
+### Tarea 3. **Aplicar funciones básicas**
+
+Paso 9. Debajo de la tabla, usar las formulas para calcular lo siguiente:
+- Total de unidades vendidas: `SUMA`.
+
+![imagen resultado](..\images\cap3_9.png)
+
+- Promedio de precio unitario: `PROMEDIO`
+
+![imagen resultado](..\images\cap3_10.png)
+
+- Mínimo de unidades vendidas: `MIN`
+
+![imagen resultado](..\images\cap3_11.png)
+
+- Máximo de unidades vendidas: `MAX`
+
+![imagen resultado](..\images\cap3_12.png)
+
+### Tarea 4. **Aplicar funciones de fecha**
+
+Paso 10. Agregar una nueva columna llamada `Días Desde Venta`, usa la función:
+```excel
+=HOY() - Fecha de Venta
+```
+Y cambiar el formato a numero, lo que mostrará cuántos días han pasado desde la fecha de venta. 
+
+![imagen resultado](..\images\cap3_13.png)
+![imagen resultado](..\images\cap3_14.png)
+
+### Tarea 5. **Concatenar información**
+
+Paso 11. Crea una nueva columna llamada `Resumen`, donde combines el código, nombre del producto y sucursal en una sola celda, por ejemplo:
+
+```excel
+=CONCAT(Código Producto; " - "; Nombre Producto; " ("; Sucursal; ")")
+```
+
+![imagen resultado](..\images\cap3_15.png)
+
+### Tarea 6. **Extraer información de texto**
+
+Paso 12. En una nueva columna `Iniciales`, extrae las dos primeras letras del nombre del producto con la función `IZQUIERDA`:
+```excel
+=IZQUIERDA(Nombre Producto; 2)
+```
+
+![imagen resultado](..\images\cap3_16.png)
+
+### Tarea 7. **Guardar y crear copia**
+
+Paso 13. Guarda el archivo como `Ventas_Sucursales.xlsx`.
+
+Paso 14. Usa `Guardar como` para crear una copia con el nombre `Ventas_Sucursales_v2.xlsx`.
+
+![imagen resultado](..\images\cap3_17.png)
+
+---
+
+### Resultado esperado:
+
+![imagen resultado](..\images\cap3_resultado.png)

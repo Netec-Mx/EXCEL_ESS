@@ -1,41 +1,147 @@
-# Nombre del laboratorio 
+# Registro de Asistencia a Evento
 
 ## Objetivo de la práctica:
-Al finalizar la práctica, serás capaz de:
-- Objetivo1
-- Objetivo2
-- Objetivo3
 
-## Objetivo Visual 
-Crear un diagrama o imagen que resuma las actividades a realizar, un ejemplo es la siguiente imagen. 
+Al finalizar esta práctica, el participante será capaz de aplicar validaciones de datos en celdas para restringir valores de texto, números y fechas; mostrar mensajes de entrada y advertencias personalizadas; aplicar validación a rangos múltiples, así como revisar y eliminar reglas de validación.
 
-![diagrama1](../images/img1.png)
+## Objetivo Visual
+
+![imagen resultado](..\images\cap5_obj.png)
 
 ## Duración aproximada:
-- xx minutos.
+- 30 minutos.
 
-## Tabla de ayuda:
-Agregar una tabla con la información que pueda requerir el participante durante el laboratorio, como versión de software, IPs de servers, usuarios y credenciales de acceso.
-| Contraseña | Correo | Código |
-| --- | --- | ---|
-| Netec2024 | edgardo@netec.com | 123abc |
+## Instrucciones
 
-## Instrucciones 
-<!-- Proporciona pasos detallados sobre cómo configurar y administrar sistemas, implementar soluciones de software, realizar pruebas de seguridad, o cualquier otro escenario práctico relevante para el campo de la tecnología de la información -->
-### Tarea 1. Descripción de la tarea a realizar.
-Paso 1. Debe de relatar el instructor en verbo infinito, claro y conciso cada actividad para ir construyendo paso a paso en el objetivo de la tarea.
+### Tarea 1. **Crear tabla de registro**
 
-Paso 2. <!-- Añadir instrucción -->
+Paso 1. Abre un nuevo archivo de Excel y crea una hoja con los siguientes encabezados:
 
-Paso 3. <!-- Añadir instrucción -->
+- Nombre completo  
+- Edad  
+- Fecha de registro  
+- Asistirá  
 
-### Tarea 2. Descripción de la tarea a realizar.
-Paso 1. Debe de relatar el instructor en verbo infinito, claro y conciso cada actividad para ir construyendo paso a paso en el objetivo de la tarea.
+Paso 2. Llena una fila de ejemplo para tener una vista preliminar de los datos:
 
-Paso 2. <!-- Añadir instrucción -->
+| Nombre completo | Edad | Fecha de registro | Asistirá |
+|------------------|------|--------------------|----------|
+| Juan Pérez       | 28   | 10/04/2025         | Sí       |
 
-Paso 3. <!-- Añadir instrucción -->
+![imagen resultado](..\images\cap5_1.png)
 
-### Resultado esperado
-En esta sección se debe mostrar el resultado esperado de nuestro laboratorio
-![imagen resultado](../images/img3.png)
+---
+
+### Tarea 2. **Validar nombre (solo texto)**
+
+Paso 3. Selecciona el dato en la columna `Nombre completo`.
+
+Paso 4. Ve a `Datos > Validación de datos`.
+
+![imagen resultado](..\images\cap5_2.png)
+
+Paso 5. Selecciona "Longitud de texto" y permite entre 3 y 40 caracteres.  
+✔ Esto evitará nombres demasiado cortos o vacíos.
+
+![imagen resultado](..\images\cap5_3.png)
+
+Paso 6. En la pestaña "Mensaje de entrada", escribe:  
+- **Título:** Instrucción  
+- **Mensaje:** Escribe tu nombre completo (mínimo 3 letras).
+
+![imagen resultado](..\images\cap5_4.png)
+
+Paso 7. En la pestaña "Mensaje de error":  
+- Tipo: Advertencia  
+- Mensaje: Revisa el nombre ingresado, debe tener al menos 3 caracteres.
+
+![imagen resultado](..\images\cap5_5.png)
+
+---
+
+### Tarea 3. **Validar edad (entre 18 y 60 años)**
+
+Paso 8. Selecciona la columna `Edad`.
+
+Paso 9. En Validación de datos, selecciona:  
+- Tipo: Número entero  
+- Mínimo: 18  
+- Máximo: 60
+
+![imagen resultado](..\images\cap5_6.png)
+
+Paso 10. Mensaje de entrada:  
+- **Mensaje:** Edad permitida entre 18 y 60 años.
+
+![imagen resultado](..\images\cap5_7.png)
+
+Paso 11. Mensaje de error:  
+- Tipo: Detener  
+- **Mensaje:** Solo se permite ingresar edades válidas para el evento.
+
+![imagen resultado](..\images\cap5_8.png)
+
+---
+
+### Tarea 4. **Validar fecha (a partir del 01/01/2025)**
+
+Paso 12. Selecciona el dato de la columna `Fecha de registro`.
+
+Paso 13. Tipo de validación: Fecha  
+- Datos: mayor o igual que  
+- Fecha de inicio: 01/01/2025
+
+![imagen resultado](..\images\cap5_9.png)
+
+Paso 14. Mensaje de entrada:  
+- **Mensaje:** Ingresa una fecha posterior al 01/01/2025.
+
+![imagen resultado](..\images\cap5_10.png)
+
+Paso 15. Mensaje de error:  
+- Tipo: Advertencia  
+- **Mensaje:** La fecha ingresada no es válida para este evento.
+
+![imagen resultado](..\images\cap5_11.png)
+
+---
+
+### Tarea 5. **Copiar validaciones a múltiples filas**
+
+Paso 19. Llena las el resto de filas con la siguiente información.
+
+| Nombre completo  | Edad | Fecha de registro | Asistirá |
+|------------------|------|-------------------|----------|
+| Juan Pérez       | 28   | 10/04/2025        | Sí       |
+| Laura Martínez   | 34   | 09/04/2025        | No       |
+| Carlos Ramírez   | 22   | 11/04/2025        | Sí       |
+
+![imagen resultado](..\images\cap5_12.png)
+
+Paso 20. Selecciona la fila con las validaciones ya aplicadas y copiala.
+
+![imagen resultado](..\images\cap5_13.png)
+
+Paso 21. Selecciona los datos a los cuales se les va a aplicar las validaciones anteriormente creadas, dar clic derecho y seleccionar `Pegado especial`.
+
+![imagen resultado](..\images\cap5_14.png)
+
+Paso 22. Seleccionar la opcion de `Validacion` y dar clic en `Aceptar`
+
+![imagen resultado](..\images\cap5_15.png)
+
+---
+
+### Tarea 6. **Ver y eliminar validaciones**
+
+Paso 22. Selecciona los datos de `Edad` y ve a `Datos > Validación de datos`.
+
+Paso 23. Elimina la validación seleccionando `Borrar todos` y luego `Aceptar`.
+
+![imagen resultado](..\images\cap5_16.png)
+
+---
+
+### Resultado esperado:
+
+![imagen resultado](..\images\cap5_resultado.png)
