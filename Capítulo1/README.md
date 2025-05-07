@@ -6,7 +6,7 @@ Al finalizar esta práctica, el participante será capaz de crear un archivo de 
 
 ## Objetivo Visual
 
-![imagen resultado](../images/cap1.png)
+![imagen resultado](../images/cap1_obj.png)
 
 ## Duración aproximada:
 - 25 minutos.
