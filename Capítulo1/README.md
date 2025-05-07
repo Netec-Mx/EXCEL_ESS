@@ -21,21 +21,21 @@ Paso 1. Dar click en `Incio` en la barra de tareas
 
 Paso 2. Escribir `Excel` y dar click en el icono de `Excel`
 
-![imagen resultado](..\images\cap1_2.png)
+![imagen resultado](../images/cap1_2.png)
 
 Paso 3. Una vez abierto, seleccionar `Libro en blanco`
 
-![imagen resultado](..\images\cap1_3.png)
+![imagen resultado](../images/cap1_3.png)
 
 ### Tarea 2. **Renombrar la hoja**
 
 Paso 4. Haz clic derecho sobre la pestaña de la hoja en la parte inferior y selecciona `Cambiar nombre`
 
-![imagen resultado](..\images\cap1_4.png)
+![imagen resultado](../images/cap1_4.png)
 
 Paso 5. Escribe el nombre `Productos`
 
-![imagen resultado](..\images\cap1_5.png)
+![imagen resultado](../images/cap1_5.png)
 
 ### Tarea 3. **Crear una tabla**
 
@@ -46,7 +46,7 @@ Paso 6. En la fila 1, escribe los siguientes encabezados (una por celda, de izqu
 - Categoría
 - Precio
 
-![imagen resultado](..\images\cap1_6.png)
+![imagen resultado](../images/cap1_6.png)
 
 Paso 7. En las filas siguientes (mínimo 3), agrega productos ficticios.
 
