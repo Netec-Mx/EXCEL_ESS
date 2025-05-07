@@ -1,41 +1,98 @@
-# Nombre del laboratorio 
+# Catálogo de Productos Inicial
 
 ## Objetivo de la práctica:
-Al finalizar la práctica, serás capaz de:
-- Objetivo1
-- Objetivo2
-- Objetivo3
 
-## Objetivo Visual 
-Crear un diagrama o imagen que resuma las actividades a realizar, un ejemplo es la siguiente imagen. 
+Al finalizar esta práctica, el participante será capaz de crear un archivo de Excel con una hoja estructurada en filas, columnas y celdas, ingresar datos organizados en forma de tabla, renombrar hojas, guardar y duplicar archivos utilizando `Guardar como`, cerrar y reabrir archivos correctamente.
 
-![diagrama1](../images/img1.png)
+## Objetivo Visual
+
+![imagen resultado](..\images\cap1_obj.png)
 
 ## Duración aproximada:
-- xx minutos.
-
-## Tabla de ayuda:
-Agregar una tabla con la información que pueda requerir el participante durante el laboratorio, como versión de software, IPs de servers, usuarios y credenciales de acceso.
-| Contraseña | Correo | Código |
-| --- | --- | ---|
-| Netec2024 | edgardo@netec.com | 123abc |
+- 25 minutos.
 
 ## Instrucciones 
-<!-- Proporciona pasos detallados sobre cómo configurar y administrar sistemas, implementar soluciones de software, realizar pruebas de seguridad, o cualquier otro escenario práctico relevante para el campo de la tecnología de la información -->
-### Tarea 1. Descripción de la tarea a realizar.
-Paso 1. Debe de relatar el instructor en verbo infinito, claro y conciso cada actividad para ir construyendo paso a paso en el objetivo de la tarea.
 
-Paso 2. <!-- Añadir instrucción -->
+### Tarea 1. **Abrir Excel**
 
-Paso 3. <!-- Añadir instrucción -->
+Paso 1. Dar click en `Incio` en la barra de tareas 
 
-### Tarea 2. Descripción de la tarea a realizar.
-Paso 1. Debe de relatar el instructor en verbo infinito, claro y conciso cada actividad para ir construyendo paso a paso en el objetivo de la tarea.
+![imagen resultado](..\images\cap1_1.png)
 
-Paso 2. <!-- Añadir instrucción -->
+Paso 2. Escribir `Excel` y dar click en el icono de `Excel`
 
-Paso 3. <!-- Añadir instrucción -->
+![imagen resultado](..\images\cap1_2.png)
+
+Paso 3. Una vez abierto, seleccionar `Libro en blanco`
+
+![imagen resultado](..\images\cap1_3.png)
+
+### Tarea 2. **Renombrar la hoja**
+
+Paso 4. Haz clic derecho sobre la pestaña de la hoja en la parte inferior y selecciona `Cambiar nombre`
+
+![imagen resultado](..\images\cap1_4.png)
+
+Paso 5. Escribe el nombre `Productos`
+
+![imagen resultado](..\images\cap1_5.png)
+
+### Tarea 3. **Crear una tabla**
+
+Paso 6. En la fila 1, escribe los siguientes encabezados (una por celda, de izquierda a derecha):
+
+- Código
+- Producto
+- Categoría
+- Precio
+
+![imagen resultado](..\images\cap1_6.png)
+
+Paso 7. En las filas siguientes (mínimo 3), agrega productos ficticios.
+
+
+
+     | Código | Producto     | Categoría     | Precio |
+     |--------|--------------|---------------|--------|
+     | P001   | Lápiz        | Papelería     | 0.50   |
+     | P002   | Cuaderno     | Papelería     | 2.00   |
+     | P003   | Taza         | Hogar         | 3.75   |
+
+![imagen resultado](..\images\cap1_7.png)
+
+
+Paso 8. Identifica mentalmente que representa cada fila y cada columna
+
+### Tarea 4. **Guardar el archivo**
+
+Paso 9. Haz clic en `Archivo` en la parte superior derecha
+
+![imagen resultado](..\images\cap1_8.png)
+
+Paso 10. Dar clic en `Guardar como`
+
+![imagen resultado](..\images\cap1_9.png)
+
+Paso 11. Seleccionar `Examinar`
+
+![imagen resultado](..\images\cap1_10.png)
+
+Paso 12. Escoger la carpeta donde sera guardado el archivo de Excel, y colocarle el nombre `Catálogo`.
+
+![imagen resultado](..\images\cap1_11.png)
+
+### Tarea 5. **Crear una copia del archivo**
+
+Paso 13. Sigue los pasos del 9 al 11 para usa `Guardar como` nuevamente, pero esta vez guarda el archivo como: `Catálogo_V2`.
+
+![imagen resultado](..\images\cap1_12.png)
+
+### Tarea 6. **Verificar los arhcivos**
+ 
+Paso 14. Cierra Excel completamente.
+
+Paso 15. Reabre ambos archivos para verificar que ambos tengan la misma tabla y que la información se haya guardado correctamente.
 
 ### Resultado esperado
-En esta sección se debe mostrar el resultado esperado de nuestro laboratorio
-![imagen resultado](../images/img3.png)
+![imagen resultado](..\images\cap1_13.png)
+
