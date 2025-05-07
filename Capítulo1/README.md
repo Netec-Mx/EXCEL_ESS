@@ -17,7 +17,7 @@ Al finalizar esta práctica, el participante será capaz de crear un archivo de 
 
 Paso 1. Dar click en `Incio` en la barra de tareas 
 
-<img src="./media/images/cap1_1.png"> 
+![imagen resultado](..\images\cap1_1)
 
 Paso 2. Escribir `Excel` y dar click en el icono de `Excel`
 
