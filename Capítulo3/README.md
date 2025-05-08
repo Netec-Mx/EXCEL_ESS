@@ -128,10 +128,10 @@ Paso 13. Guardar el archivo como `Ventas_Sucursales.xlsx`.
 
 Paso 14. Usar `Guardar como` para crear una copia con el nombre `Ventas_Sucursales_v2.xlsx`.
 
-![imagen resultado](..\images\cap3_17.png)
+![imagen resultado](../images/cap3_17.png)
 
 ---
 
 ### Resultado esperado:
 
-![imagen resultado](..\images\cap3_resultado.png)
+![imagen resultado](../images/cap3_resultado.png)
