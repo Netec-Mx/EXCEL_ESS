@@ -63,23 +63,23 @@ Paso 5. Seleccionar la columna `Porcentaje de Avance` y aplicar una barra de pro
 
 ### Tarea 3. **Listas desplegables**
 
-Paso 6. Seleccionar los datos de la columna `Estado` y ver a la pestaña `Datos`.
+Paso 6. Seleccionar los datos de la columna `Estado` y dirigirse a la pestaña `Datos`.
 
 ![cap4](../images/cap4_7.png)
 
-Paso 7. Selecciona la opcion `Validacion de datos`
+Paso 7. Seleccionar la opcion `Validacion de datos`.
 
 ![cap4](../images/cap4_8.png)
 
-Paso 8. Selecciona la opcion de `lista`, marca la casilla `Celda con lista desplegable` y da clic en la opcion de seleccionar celdas
+Paso 8. Seleccionar la opcion de `lista`, marcar la casilla `Celda con lista desplegable` y dar clic en la opcion de seleccionar celdas.
 
 ![cap4](../images/cap4_9.png)
 
-Paso 9. Selecciona las celdas encerrando los recuadros: `Completado`, `En espera`, `En progreso` y presiona la tecla **Enter**
+Paso 9. Seleccionar las celdas encerrando los recuadros: `Completado`, `En espera`, `En progreso` y presiona la tecla **Enter.**
 
 ![cap4](../images/cap4_10.png)
 
-Paso 10. Dar clic en `Aceptar`
+Paso 10. Dar clic en `Aceptar`.
 
 ![cap4](../images/cap4_11.png)
 
@@ -87,11 +87,11 @@ Paso 10. Dar clic en `Aceptar`
 
 ### Tarea 4. **Filtrar**
 
-Paso 11. Selecciona el recuadro de `Estado` y en la pestaña de `datos` dar clic en el `filtro`
+Paso 11. Seleccionar el recuadro de `Estado` y en la pestaña de `datos` dar clic en el `filtro`.
 
 ![cap4](../images/cap4_12.png)
 
-Paso 12. Filtrar la tabla para mostrar **solo los proyectos "En progreso"**.
+Paso 12. Filtrar la tabla para mostrar **solo los proyectos "En progreso".**
 
 ![cap4](../images/cap4_13.png)
 
@@ -99,7 +99,7 @@ Paso 12. Filtrar la tabla para mostrar **solo los proyectos "En progreso"**.
 
 ### Tarea 5. **Buscar y reemplazar**
 
-Paso 13. Busca el nombre `Carlos Ruiz` en toda la hoja y reemplázalo por `Carlos R.` usando la función **Buscar y Reemplazar (Ctrl + L o Ctrl + B)**.
+Paso 13. Buscar el nombre `Carlos Ruiz` en toda la hoja y reemplazarlo por `Carlos R.` usando la función **Buscar y Reemplazar (Ctrl + L o Ctrl + B).**
 
 ![cap4](../images/cap4_14.png)
 ![cap4](../images/cap4_15.png)
@@ -108,9 +108,9 @@ Paso 13. Busca el nombre `Carlos Ruiz` en toda la hoja y reemplázalo por `Carlo
 
 ### Tarea 6. **Guardar y crear copia**
 
-Paso 14. Guarda el archivo como `Seguimiento_Proyectos.xlsx`.
+Paso 14. Guardar el archivo como `Seguimiento_Proyectos.xlsx`.
 
-Paso 15. Usa `Guardar como` para crear una copia con el nombre `Seguimiento_Proyectos_v2.xlsx`.
+Paso 15. Usar `Guardar como` para crear una copia con el nombre `Seguimiento_Proyectos_v2.xlsx`.
 
 ---
 
