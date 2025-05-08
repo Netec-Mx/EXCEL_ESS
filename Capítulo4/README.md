@@ -3,7 +3,7 @@
 ## Objetivo de la práctica:
 
 Al finalizar esta práctica, el participante será capaz de:
-- Aplicar formato condicional.
+- Aplicar el formato condicional.
 - Utilizar listas desplegables, ordenar y filtrar datos, buscar y reemplazar datos incorrectos para consolidar información clave de un conjunto de tareas o proyectos.
 
 ## Objetivo visual
@@ -17,7 +17,7 @@ Al finalizar esta práctica, el participante será capaz de:
 
 ### Tarea 1. **Crear la tabla de proyectos**
 
-Paso 1. Abri un nuevo archivo de Excel.
+Paso 1. Abrir un nuevo archivo de Excel.
 
 Paso 2. Escribir los siguientes encabezados en la fila 1:
 
@@ -71,7 +71,7 @@ Paso 7. Seleccionar la opcion `Validacion de datos`.
 
 ![cap4](../images/cap4_8.png)
 
-Paso 8. Seleccionar la opcion de `lista`, marcar la casilla `Celda con lista desplegable` y dar clic en la opcion de seleccionar celdas.
+Paso 8. Seleccionar la opcion de `lista`, marcar la casilla `Celda con lista desplegable` y dar clic en la opción de seleccionar celdas.
 
 ![cap4](../images/cap4_9.png)
 
