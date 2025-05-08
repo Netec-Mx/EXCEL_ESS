@@ -1,10 +1,13 @@
-# Análisis Visual de Ventas Mensuales
+# Práctica 7. Análisis visual de ventas mensuales
 
 ## Objetivo de la práctica:
 
-Al finalizar esta práctica, el participante será capaz de crear gráficos simples a partir de datos, insertar diferentes tipos de gráficos (columnas, líneas, circular), personalizar sus elementos visuales, utilizar las recomendaciones automáticas de Excel, y guardar una plantilla de gráfico para reutilizarla.
+Al finalizar esta práctica, el participante será capaz de:
+- Crear gráficos simples a partir de datos.
+- Insertar diferentes tipos de gráficos (columnas, líneas, circular).
+- Personalizar sus elementos visuales, utilizar las recomendaciones automáticas de Excel y guardar una plantilla de gráfico para reutilizarla.
 
-## Objetivo Visual
+## Objetivo visual
 
 ![imagen resultado](../images/cap7_obj.png)
 
@@ -15,9 +18,9 @@ Al finalizar esta práctica, el participante será capaz de crear gráficos simp
 
 ### Tarea 1. **Crear la tabla de datos**
 
-Paso 1. Abre un nuevo archivo de Excel y nombra la hoja como `Ventas`.
+Paso 1. Abrir un nuevo archivo de Excel y nombrar la hoja como `Ventas`.
 
-Paso 2. En la fila 1, escribe los siguientes encabezados:
+Paso 2. En la fila 1, escribir los siguientes encabezados:
 
 - Producto  
 - Categoría  
@@ -25,7 +28,7 @@ Paso 2. En la fila 1, escribe los siguientes encabezados:
 - Febrero  
 - Marzo  
 
-Paso 3. Llena las filas con los siguientes datos:
+Paso 3. Llenar las filas con los siguientes datos:
 
 | Producto     | Categoría     | Enero | Febrero | Marzo |
 |--------------|----------------|--------|----------|--------|
@@ -37,7 +40,7 @@ Paso 3. Llena las filas con los siguientes datos:
 
 ![imagen resultado](../images/cap7_1.png)
 
-Paso 4. Selecciona la tabla y conviértela en tabla con `Insertar > Tabla`, marcando la opción `La tabla tiene encabezados`.
+Paso 4. Seleccionar la tabla y convertirla en tabla con `Insertar > Tabla`, marcando la opción `La tabla tiene encabezados`.
 
 ![imagen resultado](../images/cap7_2.png)
 
@@ -45,15 +48,15 @@ Paso 4. Selecciona la tabla y conviértela en tabla con `Insertar > Tabla`, marc
 
 ### Tarea 2. **Insertar un gráfico de columnas**
 
-Paso 5. Selecciona los datos de productos y sus ventas por mes (sin incluir la columna de categoría).
+Paso 5. Seleccionar los datos de producto y sus ventas por mes (sin incluir la columna de categoría).
 
 ![imagen resultado](../images/cap7_3.png)
 
-Paso 6. Con las columnas seleccionadas, ve a `Insertar > Gráficos recomendados`, y selecciona uno de tipo **Columna agrupadas**.
+Paso 6. Con las columnas seleccionadas, dirigirse a `Insertar > Gráficos recomendados`, y seleccionar un de tipo **Columna agrupadas**.
 
 ![imagen resultado](../images/cap7_4.png)
 
-Paso 7. Coloca el gráfico debajo de la tabla.
+Paso 7. Colocar el gráfico debajo de la tabla.
 
 ![imagen resultado](../images/cap7_5.png)
 
@@ -61,17 +64,17 @@ Paso 7. Coloca el gráfico debajo de la tabla.
 
 ### Tarea 3. **Insertar gráfico circular para proporción por categoría**
 
-Paso 8. Crea una nueva columna llamada `Total` con fórmula `=SUMA([@Enero]:[@Marzo])`, y selecciona las columnas `Categoría` y este nuevo total de ventas por producto.
+Paso 8. Crear una nueva columna llamada `Total` con fórmula `=SUMA([@Enero]:[@Marzo])`, y seleccionar las columnas `Categoría` y este nuevo total de ventas por producto.
 
 ![imagen resultado](../images/cap7_6.png)
 
-Paso 9. Usa `Insertar > Circular > Circular 2D`.
+Paso 9. Usar `Insertar > Circular > Circular 2D`.
 
 ![imagen resultado](../images/cap7_7.png)
 
-Paso 10. Personaliza el gráfico:
-- Da doble clic en el titulo que aparece y reemplazalo por `Distribución por categoría`
-- Da clic en el simbolo `+` y selecciona `Etiquetas de datos`, y luego `Llamada de datos` para mostrar porcentaje en las etiquetas
+Paso 10. Personalizar el gráfico:
+- Dar doble clic en el titulo que aparece y reemplazalo por `Distribución por categoría`.
+- Dar clic en el simbolo `+` y seleccionar `Etiquetas de datos`, y luego `Llamada de datos` para mostrar el porcentaje en las etiquetas.
 
 ![imagen resultado](../images/cap7_8.png)
 
@@ -79,25 +82,25 @@ Paso 10. Personaliza el gráfico:
 
 ### Tarea 4. **Insertar gráfico de líneas para evolución mensual**
 
-Paso 11. Selecciona las columnas `Producto`, `Enero`, `Febrero` y `Marzo`.
+Paso 11. Seleccionar las columnas `Producto`, `Enero`, `Febrero` y `Marzo`.
 
-Paso 12. Inserta un **gráfico de líneas** desde `Insertar > Línea > Línea con marcadores`.
+Paso 12. Insertar un **gráfico de líneas** desde `Insertar > Línea > Línea con marcadores`.
 
 ![imagen resultado](../images/cap7_9.png)
 
-Paso 13. Cambia el título del gráfico a: `Tendencia mensual de ventas`.
+Paso 13. Cambiar el título del gráfico a: `Tendencia mensual de ventas`.
 
 ![imagen resultado](../images/cap7_10.png)
 
 ### Tarea 5. **Guardar un gráfico como plantilla**
 
-Paso 14. Haz clic derecho sobre el gráfico de lineas.
+Paso 14. Hacer clic derecho sobre el gráfico de lineas.
 
-Paso 15. Selecciona `Guardar como plantilla`.
+Paso 15. Seleccionar `Guardar como plantilla`.
 
 ![imagen resultado](../images/cap7_11.png)
 
-Paso 16. Asigna el nombre: `plantilla_columna_ventas`.
+Paso 16. Asignar el nombre: `plantilla_columna_ventas`.
 
 ![imagen resultado](../images/cap7_12.png)
 
@@ -105,9 +108,9 @@ Paso 16. Asigna el nombre: `plantilla_columna_ventas`.
 
 ### Tarea 6. **Guardar el archivo**
 
-Paso 17. Guarda el archivo como `Ventas_Graficos.xlsx`.
+Paso 17. Guardar el archivo como `Ventas_Graficos.xlsx`.
 
-Paso 18. Usa `Guardar como` para crear una copia: `Ventas_Graficos_v2.xlsx`.
+Paso 18. Usar `Guardar como` para crear una copia: `Ventas_Graficos_v2.xlsx`.
 
 ---
 
