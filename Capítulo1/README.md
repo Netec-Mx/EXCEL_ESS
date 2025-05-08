@@ -25,11 +25,11 @@ Paso 1. Dar clic en `Incio` en la barra de tareas.
 
 Paso 2. Escribir `Excel` y dar clic en el icono de `Excel`.
 
-![imagen resultado](../images/cap1_2.png)
+![imagen resultado](../images/Cap1_2.png)
 
 Paso 3. Una vez abierto, seleccionar `Libro en blanco`.
 
-![imagen resultado](../images/cap1_3.png)
+![imagen resultado](../images/Cap1_3.png)
 
 
 ### Tarea 2. **Renombrar la hoja**
