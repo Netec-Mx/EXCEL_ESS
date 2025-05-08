@@ -94,7 +94,7 @@ Paso 13. Seguir los pasos del 9 al 11 para usar `Guardar como` nuevamente, pero 
 
 ![imagen resultado](../images/cap1_12.png)
 
-### Tarea 6. **Verificar los arhcivos**
+### Tarea 6. **Verificar los archivos**
  
 Paso 14. Cerrar Excel completamente.
 
