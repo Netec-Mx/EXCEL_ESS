@@ -129,7 +129,7 @@ Paso 21. Seleccionar los datos a los cuales se les va a aplicar las validaciones
 
 ![imagen resultado](../images/cap5_14.png)
 
-Paso 22. Seleccionar la opcion de `Validacion` y dar clic en `Aceptar`.
+Paso 22. Seleccionar la opción de `Validacion` y dar clic en `Aceptar`.
 
 ![imagen resultado](../images/cap5_15.png)
 
@@ -137,9 +137,9 @@ Paso 22. Seleccionar la opcion de `Validacion` y dar clic en `Aceptar`.
 
 ### Tarea 6. **Ver y eliminar validaciones**
 
-Paso 22. Seleccionar los datos de `Edad` y dirigirse a `Datos > Validación de datos`.
+Paso 23. Seleccionar los datos de `Edad` y dirigirse a `Datos > Validación de datos`.
 
-Paso 23. Eliminar la validación seleccionando `Borrar todos` y luego `Aceptar`.
+Paso 24. Eliminar la validación seleccionando `Borrar todos` y luego `Aceptar`.
 
 ![imagen resultado](../images/cap5_16.png)
 
