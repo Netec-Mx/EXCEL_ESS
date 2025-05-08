@@ -9,7 +9,7 @@ Al finalizar esta práctica, el participante será capaz de:
 
 ## Objetivo visual
 
-![cap2](..\images\cap2_obj.png)
+![cap2](../images/cap2_obj.png)
 
 ## Duración aproximada:
 - 30 minutos.
