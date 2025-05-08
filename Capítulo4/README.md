@@ -6,7 +6,7 @@ Al finalizar esta práctica, el participante será capaz de:
 - Aplicar formato condicional.
 - Utilizar listas desplegables, ordenar y filtrar datos, buscar y reemplazar datos incorrectos para consolidar información clave de un conjunto de tareas o proyectos.
 
-## Objetivo Visual
+## Objetivo visual
 
 ![cap4](../images/cap4_obj.png)
 
