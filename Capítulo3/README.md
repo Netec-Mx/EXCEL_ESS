@@ -56,7 +56,7 @@ Paso 5. Llenar esa columna con el valor `10%` (usar el formato porcentaje).
 
 ![imagen resultado](../images/cap3_4.png)
 
-Paso 6. Calcular el total de la venta aplicando el descuento, en la columna `Total Venta`:
+Paso 6. Calcular el total de la venta aplicando el descuento en la columna `Total Venta`:
 
 ```excel
 =Unidades Vendidas * Precio Unitario * (1 - Descuento %)
