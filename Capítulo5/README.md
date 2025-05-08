@@ -1,10 +1,13 @@
-# Registro de Asistencia a Evento
+# Práctica 5. Registro de asistencia a evento
 
 ## Objetivo de la práctica:
 
-Al finalizar esta práctica, el participante será capaz de aplicar validaciones de datos en celdas para restringir valores de texto, números y fechas; mostrar mensajes de entrada y advertencias personalizadas; aplicar validación a rangos múltiples, así como revisar y eliminar reglas de validación.
+Al finalizar esta práctica, el participante será capaz de:
+- Aplicar validaciones de datos en celdas para restringir valores de texto, números y fechas.
+- Mostrar mensajes de entrada y advertencias personalizadas.
+- Aplicar validación a rangos múltiples, así como revisar y eliminar reglas de validación.
 
-## Objetivo Visual
+## Objetivo visual
 
 ![imagen resultado](../images/cap5_obj.png)
 
@@ -15,14 +18,14 @@ Al finalizar esta práctica, el participante será capaz de aplicar validaciones
 
 ### Tarea 1. **Crear tabla de registro**
 
-Paso 1. Abre un nuevo archivo de Excel y crea una hoja con los siguientes encabezados:
+Paso 1. Abrir un nuevo archivo de Excel y crear una hoja con los siguientes encabezados:
 
 - Nombre completo  
 - Edad  
 - Fecha de registro  
 - Asistirá  
 
-Paso 2. Llena una fila de ejemplo para tener una vista preliminar de los datos:
+Paso 2. Llenar una fila de ejemplo para tener una vista preliminar de los datos:
 
 | Nombre completo | Edad | Fecha de registro | Asistirá |
 |------------------|------|--------------------|----------|
@@ -34,18 +37,18 @@ Paso 2. Llena una fila de ejemplo para tener una vista preliminar de los datos:
 
 ### Tarea 2. **Validar nombre (solo texto)**
 
-Paso 3. Selecciona el dato en la columna `Nombre completo`.
+Paso 3. Seleccionar el dato en la columna `Nombre completo`.
 
-Paso 4. Ve a `Datos > Validación de datos`.
+Paso 4. Dirigirse a `Datos > Validación de datos`.
 
 ![imagen resultado](../images/cap5_2.png)
 
-Paso 5. Selecciona "Longitud de texto" y permite entre 3 y 40 caracteres.  
+Paso 5. Seleccionar "Longitud de texto" y permitir entre 3 y 40 caracteres.  
 ✔ Esto evitará nombres demasiado cortos o vacíos.
 
 ![imagen resultado](../images/cap5_3.png)
 
-Paso 6. En la pestaña "Mensaje de entrada", escribe:  
+Paso 6. En la pestaña "Mensaje de entrada", escribir:  
 - **Título:** Instrucción  
 - **Mensaje:** Escribe tu nombre completo (mínimo 3 letras).
 
@@ -53,7 +56,7 @@ Paso 6. En la pestaña "Mensaje de entrada", escribe:
 
 Paso 7. En la pestaña "Mensaje de error":  
 - Tipo: Advertencia  
-- Mensaje: Revisa el nombre ingresado, debe tener al menos 3 caracteres.
+- Mensaje: Revisar el nombre ingresado, debe tener al menos 3 caracteres.
 
 ![imagen resultado](../images/cap5_5.png)
 
@@ -61,9 +64,9 @@ Paso 7. En la pestaña "Mensaje de error":
 
 ### Tarea 3. **Validar edad (entre 18 y 60 años)**
 
-Paso 8. Selecciona la columna `Edad`.
+Paso 8. Seleccionar la columna `Edad`.
 
-Paso 9. En Validación de datos, selecciona:  
+Paso 9. En Validación de datos, seleccionar:  
 - Tipo: Número entero  
 - Mínimo: 18  
 - Máximo: 60
@@ -85,7 +88,7 @@ Paso 11. Mensaje de error:
 
 ### Tarea 4. **Validar fecha (a partir del 01/01/2025)**
 
-Paso 12. Selecciona el dato de la columna `Fecha de registro`.
+Paso 12. Seleccionar el dato de la columna `Fecha de registro`.
 
 Paso 13. Tipo de validación: Fecha  
 - Datos: mayor o igual que  
@@ -94,7 +97,7 @@ Paso 13. Tipo de validación: Fecha
 ![imagen resultado](../images/cap5_9.png)
 
 Paso 14. Mensaje de entrada:  
-- **Mensaje:** Ingresa una fecha posterior al 01/01/2025.
+- **Mensaje:** Ingresar una fecha posterior al 01/01/2025.
 
 ![imagen resultado](../images/cap5_10.png)
 
@@ -108,7 +111,7 @@ Paso 15. Mensaje de error:
 
 ### Tarea 5. **Copiar validaciones a múltiples filas**
 
-Paso 19. Llena las el resto de filas con la siguiente información.
+Paso 19. Llenar el resto de filas con la siguiente información.
 
 | Nombre completo  | Edad | Fecha de registro | Asistirá |
 |------------------|------|-------------------|----------|
@@ -118,15 +121,15 @@ Paso 19. Llena las el resto de filas con la siguiente información.
 
 ![imagen resultado](../images/cap5_12.png)
 
-Paso 20. Selecciona la fila con las validaciones ya aplicadas y copiala.
+Paso 20. Seleccionar la fila con las validaciones ya aplicadas y copiar.
 
 ![imagen resultado](../images/cap5_13.png)
 
-Paso 21. Selecciona los datos a los cuales se les va a aplicar las validaciones anteriormente creadas, dar clic derecho y seleccionar `Pegado especial`.
+Paso 21. Seleccionar los datos a los cuales se les va a aplicar las validaciones anteriormente creadas, dar clic derecho y seleccionar `Pegado especial`.
 
 ![imagen resultado](../images/cap5_14.png)
 
-Paso 22. Seleccionar la opcion de `Validacion` y dar clic en `Aceptar`
+Paso 22. Seleccionar la opcion de `Validacion` y dar clic en `Aceptar`.
 
 ![imagen resultado](../images/cap5_15.png)
 
@@ -134,9 +137,9 @@ Paso 22. Seleccionar la opcion de `Validacion` y dar clic en `Aceptar`
 
 ### Tarea 6. **Ver y eliminar validaciones**
 
-Paso 22. Selecciona los datos de `Edad` y ve a `Datos > Validación de datos`.
+Paso 22. Seleccionar los datos de `Edad` y dirigirse a `Datos > Validación de datos`.
 
-Paso 23. Elimina la validación seleccionando `Borrar todos` y luego `Aceptar`.
+Paso 23. Eliminar la validación seleccionando `Borrar todos` y luego `Aceptar`.
 
 ![imagen resultado](../images/cap5_16.png)
 
