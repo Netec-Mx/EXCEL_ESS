@@ -74,7 +74,7 @@ Paso 9. Usar `Insertar > Circular > Circular 2D`.
 
 Paso 10. Personalizar el gráfico:
 - Dar doble clic en el titulo que aparece y reemplazalo por `Distribución por categoría`.
-- Dar clic en el simbolo `+` y seleccionar `Etiquetas de datos`, y luego `Llamada de datos` para mostrar el porcentaje en las etiquetas.
+- Dar clic en el simbolo `+` y seleccionar `Etiquetas de datos`, después hacer clic en `Llamada de datos` para mostrar el porcentaje en las etiquetas.
 
 ![imagen resultado](../images/cap7_8.png)
 
