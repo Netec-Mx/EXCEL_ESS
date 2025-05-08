@@ -44,11 +44,11 @@ Paso 3. Llenar 5 filas con los siguientes datos:
 
 Paso 4. Seleccionar los datos con sus encabezados.
 
-Paso 5. Dirigirse a `Insertar > Tabla`. Asegúrate de que esté marcada la opción `La tabla tiene encabezados`.
+Paso 5. Dirigirse a `Insertar > Tabla`. Asegurarse de que esté marcada la opción `La tabla tiene encabezados`.
 
 ![imagen resultado](../images/cap6_2.png)
 
-Paso 6. Seleccionar la tabla, y desde la pestaña `Diseño de tabla`, cambiar el nombre de la tabla a `tblGastos` 
+Paso 6. Seleccionar la tabla y desde la pestaña `Diseño de tabla`, cambiar el nombre de la tabla a `tblGastos` 
 
 ![imagen resultado](../images/cap6_3.png)
 
@@ -85,7 +85,7 @@ Paso 9. En la parte inferior de la tabla, insertar una nueva columna que tenga l
 
 ![imagen resultado](../images/cap6_6.png)
 
-Paso 10. Eliminar la fila que contiene el gasto en el cine, en la categroia "Entretenimiento", y observar como se ajusta el total.
+Paso 10. Eliminar la fila que contiene el gasto en el cine en la categoria "Entretenimiento" y observar como se ajusta el total.
 
 ![imagen resultado](../images/cap6_7.png)
 
