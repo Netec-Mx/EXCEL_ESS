@@ -6,7 +6,7 @@ Al finalizar esta práctica, el participante será capaz de crear y dar formato 
 
 ## Objetivo Visual
 
-![imagen resultado](..\images\cap6_obj.png)
+![imagen resultado](../images/cap6_obj.png)
 
 ## Duración aproximada:
 - 30 minutos.
@@ -36,7 +36,7 @@ Paso 3. Llena 5 filas con los siguientes datos:
 
 ---
 
-![imagen resultado](..\images\cap6_1.png)
+![imagen resultado](../images/cap6_1.png)
 
 ### Tarea 2. **Convertir el rango en tabla**
 
@@ -44,11 +44,11 @@ Paso 4. Selecciona los datos con sus encabezados.
 
 Paso 5. Ve a `Insertar > Tabla`. Asegúrate de que esté marcada la opción `La tabla tiene encabezados`.
 
-![imagen resultado](..\images\cap6_2.png)
+![imagen resultado](../images/cap6_2.png)
 
 Paso 6. Selecciona la tabla, y desde la pestaña `Diseño de tabla`, cambia el nombre de la tabla a `tblGastos` 
 
-![imagen resultado](..\images\cap6_3.png)
+![imagen resultado](../images/cap6_3.png)
 
 ---
 
@@ -56,14 +56,14 @@ Paso 6. Selecciona la tabla, y desde la pestaña `Diseño de tabla`, cambia el n
 
 Paso 7. Desde la pestaña `Diseño de tabla`, selecciona un estilo visual que diferencie encabezados y filas alternas.
 
-![imagen resultado](..\images\cap6_4.png)
+![imagen resultado](../images/cap6_4.png)
 
 Paso 8. Activa las siguientes opciones:  
 ✔ Fila de encabezado  
 ✔ Fila de totales  
 ✔ Fila con bandas
 
-![imagen resultado](..\images\cap6_5.png)
+![imagen resultado](../images/cap6_5.png)
 
 ---
 
@@ -80,11 +80,11 @@ Paso 9. En la parte inferior de la tabla, inserta una nueva columna que tenga lo
 |------------|----------------|--------------------|--------|
 | 08/04/2025  | Servicios   |      Agua       | 35     |
 
-![imagen resultado](..\images\cap6_6.png)
+![imagen resultado](../images/cap6_6.png)
 
 Paso 10. Elimina la fila que contiene el gasto en el cine, en la categroia "Entretenimiento", y vera como se ajusta el total.
 
-![imagen resultado](..\images\cap6_7.png)
+![imagen resultado](../images/cap6_7.png)
 
 ---
 
@@ -92,11 +92,11 @@ Paso 10. Elimina la fila que contiene el gasto en el cine, en la categroia "Entr
 
 Paso 11. Selecciona la flecha de filtro, y para ordenar la tabla por fecha, selecciona `Ordenar de más reciente a más antiguos`.
 
-![imagen resultado](..\images\cap6_8.png)
+![imagen resultado](../images/cap6_8.png)
 
 Paso 12. Aplica un filtro para mostrar solo los gastos de la categoría "Alimentación".
 
-![imagen resultado](..\images\cap6_9.png)
+![imagen resultado](../images/cap6_9.png)
 
 ---
 
@@ -112,7 +112,7 @@ Paso 14. En la primera celda de esa columna, escribe esta fórmula usando refere
 
 Paso 15. Presiona Enter y verifica que se haya aplicado a toda la columna.
 
-![imagen resultado](..\images\cap6_10.png)
+![imagen resultado](../images/cap6_10.png)
 
 ---
 
@@ -126,4 +126,4 @@ Paso 17. Usa `Guardar como` para crear una copia: `Control_Gastos_v2.xlsx`.
 
 ### Resultado esperado:
 
-![imagen resultado](..\images\cap6_resultado.png)
+![imagen resultado](../images/cap6_resultado.png)
