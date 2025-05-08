@@ -88,12 +88,12 @@ Paso 12. **Color de texto**: Cambiar el color de los textos en los encabezados a
 
 ### Tarea 5. **Ajustar ancho y alto de columnas y filas**
 
-Paso 13. Entre las columnas, aparecera la opcion de ajustar el **ancho de las columnas** para que el contenido de cada celda se vea completo y no quede cortado.
+Paso 13. Entre las columnas, aparecera la opción de ajustar el **ancho de las columnas** para que el contenido de cada celda se vea completo y no quede cortado.
 
 ![imagen resultado](../images/cap2_12.png)
 ![imagen resultado](../images/cap2_13.png)
 
-Paso 14. Entre las filas, aparecera la opcion de ajustar el **alto de las filas** para que el contenido de la tabla se vea ordenado.
+Paso 14. Entre las filas, aparecera la opción de ajustar el **alto de las filas** para que el contenido de la tabla se vea ordenado.
 
 ![imagen resultado](../images/cap2_14.png)
 ![imagen resultado](../images/cap2_15.png)
