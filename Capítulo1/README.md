@@ -21,15 +21,15 @@ Al finalizar esta práctica, el participante será capaz de:
 
 Paso 1. Dar clic en `Incio` en la barra de tareas. 
 
-![imagen resultado](../images/Cap1.png)
+![imagen resultado](../images/cap1_1.png)
 
 Paso 2. Escribir `Excel` y dar clic en el icono de `Excel`.
 
-![imagen resultado](../images/Cap1_2.png)
+![imagen resultado](../images/cap1_2.png)
 
 Paso 3. Una vez abierto, seleccionar `Libro en blanco`.
 
-![imagen resultado](../images/Cap1_3.png)
+![imagen resultado](../images/cap1_3.png)
 
 
 ### Tarea 2. **Renombrar la hoja**
