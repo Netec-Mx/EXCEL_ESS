@@ -3,7 +3,7 @@
 ## Objetivo de la práctica:
 
 Al finalizar esta práctica, el participante será capaz de:
-- Activar y utilizar Copilot en Excel para generar fórmulas automáticas, completar datos, recibir recomendaciones de gráficos, y aplicar formato visual de forma asistida, integrando sus funciones básicas en un flujo de trabajo real.
+- Activar y utilizar Copilot en Excel para generar fórmulas automáticas, completar datos, recibir recomendaciones de gráficos, y aplicar un formato visual de forma asistida, integrando sus funciones básicas en un flujo de trabajo real.
 
 ## Objetivo visual
 
@@ -39,7 +39,7 @@ Paso 3. Dirigirse a la pestaña `Archivo`, luego, buscar `Cuenta`. Debe aparecer
 ![imagen resultado](../images/cap8_2.png)
 ![imagen resultado](../images/cap8_3.png)
 
-Paso 4. Activar el autoguardado del documento, colocando el nombre `Ventas_Copilot`.
+Paso 4. Activar el autoguardado del documento colocando el nombre `Ventas_Copilot`.
 
 ![imagen resultado](../images/cap8_4.png)
 
@@ -47,13 +47,13 @@ Paso 4. Activar el autoguardado del documento, colocando el nombre `Ventas_Copil
 
 ### Tarea 3. **Solicitar generación de fórmulas automáticas**
 
-Paso 5. En `Inicio`, seleccionar la opcion de `Copilot`, y escribir en Copilot:  
-`Genera una columna con el total de ventas por producto.`, y selecciona `Inserta una columna`.
+Paso 5. En `Inicio`, seleccionar la opcion de `Copilot` y escribir en Copilot:  
+`Genera una columna con el total de ventas por producto.` y seleccionar `Inserta una columna`.
 
 ![imagen resultado](../images/cap8_5.png)
 ![imagen resultado](../images/cap8_6.png)
 
-Paso 6. Ahora solicitar:  
+Paso 6. Ahora, solicitar:  
 `Agrega una fila con el total de ventas por mes.`
 
 Paso 7. Observar que Copilot agrega una fila al final con los totales de cada columna.
@@ -78,7 +78,7 @@ Paso 9. Ajustar su posición debajo de la nueva tabla.
 ### Tarea 5. **Modificar celdas con Copilot**
 
 Paso 10. Seleccionar los datos y escribir en Copilot:  
-`Colorea de amarillo las celdas con montos de venta.` luego selecciona `Aplica`.
+`Colorea de amarillo las celdas con montos de venta.`, luego seleccionar `Aplica`.
 
 ![imagen resultado](../images/cap8_10.png)
 
