@@ -1,206 +1,53 @@
-# Funciones que podría usar el instructor
-En este documento se muestran algunas muestras de formatos que se pueden usar en el archivo **README.me** que pueden ser de ayuda para el instructor
+# Excel Essentials
 
-- [Fragmentos de código](#fragmentos-de-codigo)
-- [Listas](#listas)
-- [Tablas](#tablas)
-- [Insertar imágenes](#imagenes)
-- [Alertas](#alertas)
+**Plataforma de Laboratorios**
 
-# Fragmentos de codigo
+Bienvenido a la **Plataforma de Laboratorios** del curso **Excel Essentials**. Aquí podrás explorar diferentes tecnologías a través de prácticas guiadas. ¡Desarrolla tus habilidades y lleva tus conocimientos al siguiente nivel!
 
+---
 
-## Bloques de código
-Para agregar algún fragmento de código debemos de usar la siguiente sintáxis:
+## 🌟 **Lista de Laboratorios**
 
+Cada uno de estos laboratorios está diseñado para ofrecerte una experiencia práctica. Haz clic en los enlaces para comenzar.
 
-### Python
-
-```python
-import datetime
-
-def str2date(sf:str):#"2020-05-08"
-    datos=sf.split('-')#['2020', '05', '08']
-                #'2020':str->2020:int, '05':str->05:int, '08':str->05:int
-    fecha=datetime.date(int(datos[0]), int(datos[1]), int(datos[2]))
-    return fecha
-
-sf=input("ingrese la fecha YYYY-MM-DD: ")
-fecha=str2date(sf)
-print(fecha)
-print(type(fecha))
-```
-
-### Java
-```java
-public void cleanup() {
-        try {
-            if (connection != null)
-                connection.close();
-        } catch (Exception e) {
-            System.out.println("Excepción capturada: ");
-            e.printStackTrace();
-        }
-    }
-```
+---
+ 
+## Índice:
+ - [Práctica 1. Catálogo de productos inicial.](./Capítulo1/README.md)
+   - **Descripción**: Al finalizar esta práctica, el participante será capaz de crear un archivo de Excel con una hoja estructurada en filas, columnas y celdas, ingresar datos organizados en forma de tabla, renombrar hojas, guardar y duplicar archivos utilizando `Guardar como, cerrar y reabrir archivos correctamente. 
+   - ⏱️ **Duración estimada**: 25 minutos.
 
 
-### shell
-```shell
-#!/bin/sh
-
-CONTADOR=0
-until [ $CONTADOR – ge 3]]; do
-    echo El contador es $CONTADOR
-    CONTADOR=$(($CONTADOR+1))
-done
-```
-
-### Ruby
-```ruby
-require 'redcarpet'
-markdown = Redcarpet.new("Hello World!")
-puts markdown.to_html
-```
-
-### HTML
-
-```html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
-</html>
-
-```
-
-### Javascript
-
-```javascript
-var database=db.getSiblingDB("database")
-var collection=database.getCollection("people")
-
-var data=[
-    {name:"edgar"},
-    {name:"juan"},
-    {name:"alicia"}
-]
-
-data.forEach(t=>{
-    console.log(t)
-    var result=collection.insertOne(t)
-    console.log(result)
-})
-
-```
-# Listas
-
-## Lista simple
-- elemento 1
-- elemento 2
-- elemento 3
-
-## Lista números
-1. elemento 1
-2. elemento 2
-3. elemento 3
-
-## Lista anidada
-- Elemento principal
-    - Elemento interno 1
-    - Elemento interno 2
-        - elemento 
-        - elemento
-    - elemento interno 3
-
-## Lista de tareas
-- [ ] tarea 1
-- [x] tarea 2
-- [ ] tarea 3 
-- [ ] \(Optional) tarea opcional 
-
-# Tablas
-
-## Tabla simple
-
-| título columna 1  | título columna 2|
-| ------------- | ------------- |
-| contenido 1  | contenido 2  |
-| contenido 3  | contenido 4  |
+ - [Práctica 2. Informe de ventas mensuales.](./Capítulo2/README.md)
+   - **Descripción**: Al finalizar esta práctica, el participante será capaz de aplicar formatos de celda como moneda, fecha y porcentaje, alinear y agregar bordes a las celdas, usar estilos rápidos, ajustar el ancho y alto de columnas y filas, combinar celdas, y crear un formato personalizado básico en una tabla de ventas.
+   - ⏱️ **Duración estimada**: 30 minutos.
 
 
-## Tabla con formato en las columnas
-
-| Command | Description |
-| --- | --- |
-| `git status` | List all *new or modified* files |
-| `git diff` | Show file differences that **haven't been** staged |
+ - [Práctica 3. Reporte de ventas por sucursal.](./Capítulo3/README.md)
+   - **Descripción**: Al finalizar esta práctica, el participante será capaz de manejar filas, columnas, celdas y rangos; aplicar referencias relativas, absolutas y mixtas en fórmulas; usar funciones básicas como `SUMA`, `PROMEDIO`, `MIN` y `MAX`, aplicar funciones de fecha y hora, concatenar, y utilizar funciones para extraer información útil desde una celda.
+   - ⏱️ **Duración estimada**: 35 minutos.
 
 
-## Alinear contenido en tabla
-| Left-aligned | Center-aligned | Right-aligned |
-| :---         |     :---:      |          ---: |
-| git status   | git status     | git status    |
-| git diff     | git diff       | git diff      |
-
-# Imagenes
-
-Para insertar una imágen se usa la siguiente sintáxis:
-
-```
-![descripción de la imagen](url imagen)
-```
-El url de la imágen puede ser de la siguiente forma:
-
-- Si la imágen esta dentro de la misma rama se usa la siguiente sintaxis:
-    ```
-     ![description](/assets/images/imagen1.png)
-    ```
-    - Donde:
-        - la ruta */assets/images* esta dentro de la rama donde se encuentra el archivo **README.md**
-
-- Si la imágen esta en otra rama se usa la siguiente sintaxis:
-    ```
-    ![description](/../name_branch/assets/images/imagen1.png)
-    ```
-    - Donde: 
-        - La ruta */../name_branch/assets/images/* esta dentro de el mismo repositorio pero es una rama diferente. 
-
-- Si la imagén esta en internet se usa la siguiente sintaxis: 
-    ``` 
-     ![description](https://url/imagen.png)
-    ```
-- Si se quiere controlar el tamaño de la imágen se debe usar html, de la siguiente forma:
-    ``` html
-    <img src="url image" width="200" height="200">
-     
-    ```
-    - Donde: 
-        - En el html se pueden editar los siguiente elementos: 
-            - **url image**:  La ruta de la imágen
-            - **width**: Ancho de la imágen en pixeles
-            - **height**: Alto de la imágen en pixeles
+ - [Práctica 4. Seguimiento de proyectos.](./Capítulo4)
+   - **Descripción**:  Al finalizar esta práctica, el participante será capaz de aplicar un formato condicional, utilizar listas desplegables, ordenar y filtrar datos, buscar y reemplazar datos incorrectos para consolidar información clave de un conjunto de tareas o proyectos.
+   - ⏱️ **Duración estimada**: 35 minutos.
 
 
-# Alertas
+ - [Práctica 5. Registro de asistencia a evento.](./Capítulo5/README.md)
+   - **Descripción**: Al finalizar esta práctica, el participante será capaz de aplicar validaciones de datos en celdas para restringir valores de texto, números y fechas; mostrar mensajes de entrada y advertencias personalizadas; aplicar validación a rangos múltiples, así como revisar y eliminar reglas de validación.
+   - ⏱️ **Duración estimada**: 30 minutos.
 
-> [!NOTE]
-> útil para agregar alguna nota extra
 
-> [!TIP]
-> útil para dar algún tip
+ - [Práctica 6. Control de gastos personales.](./Capítulo6/README.md)
+   - **Descripción**: Al finalizar esta práctica, el participante será capaz de crear y dar formato a una tabla en Excel, aplicar estilos visuales, insertar y eliminar filas, utilizar nombres estructurados para cálculos, así como ordenar y filtrar los datos de manera eficiente. 
+   - ⏱️ **Duración estimada**: 30 minutos.
 
-> [!IMPORTANT]
-> útil para algún recordatorio
 
-> [!WARNING]
-> útil para alertar a los alumnos
+ - [Práctica 7. Análisis visual de ventas mensuales.](./Capítulo7/README.md)
+   - **Descripción**: Al finalizar esta práctica, el participante será capaz de crear gráficos simples a partir de datos, insertar diferentes tipos de gráficos (columnas, líneas, circular), personalizar sus elementos visuales, utilizar las recomendaciones automáticas de Excel y guardar una plantilla de gráfico para reutilizarla.
+   - ⏱️ **Duración estimada**: 35 minutos.
 
-> [!CAUTION]
-> útil para sugerencias y precauciones.
+
+ - [Práctica 8. Explorando Copilot con un archivo de ventas.](./Capítulo8/README.md)
+   - **Descripción**: Al finalizar esta práctica, el participante será capaz de activar y utilizar Copilot en Excel para generar fórmulas automáticas, completar datos, recibir recomendaciones de gráficos, y aplicar formato visual de forma asistida, integrando sus funciones básicas en un flujo de trabajo real.
+   - ⏱️ **Duración estimada**: 30 minutos.
